@@ -1,10 +1,9 @@
 body {
     height: 100vh;
     font-family: arial, sans-serif;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 0;
 }
 
 a {
@@ -25,10 +24,14 @@ ul {
      margin: 0;
 }
 
+.header {
+    padding: 6px;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     height: 48px;
 }
@@ -36,20 +39,39 @@ ul {
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+}
+
+#logo {
+    margin-bottom: 26px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .input-border {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
     height: 34px;
     border-style: solid;
     border-width: 1px;
-    border-radius: 17px;
+    border-radius: 20px;
     border-color: rgba(0,0,0,0.18);
+    padding: 3px;
+    width: auto;
+    max-width: 548px;
+    margin-bottom: 29px;
+    padding-left: 11px;
+    padding-right: 18px;
+}
+
+.input-border:hover, .input-border:focus-within {
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.1);
+    border-color: white;
 }
 
 .box-input {
@@ -57,6 +79,12 @@ ul {
 }
 .box-input:focus-visible {
     border-style: none;
+}
+
+.material-icons {
+    color: #9aa0a6;
+    font-size: 20px;
+    padding-right: 12px;
 }
 
 .leng {
@@ -67,7 +95,8 @@ ul {
 
 .footer{
     background-color: #f2f2f2;
-    color: rgba(0,0,0,.54)
+    color: rgba(0,0,0,.54);
+    margin-top: auto;
 }
 
 .country {
