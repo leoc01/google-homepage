@@ -4,4 +4,8 @@ This is my clone of Google home page. It's the first project I'm doing for The O
 
 live version in https://leoc01.github.io/google-homepage/
 
+In this project the focus was to learn CSS tools like Grid, Flexbox and how to use these to have a goot layout.
+
+I also learned how to remove default styles from the browser like button and input field and re-style them to look how I need to.
+
 o/
